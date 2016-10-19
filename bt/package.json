@@ -1,0 +1,43 @@
+{
+  "name": "bt",
+  "version": "0.2.0",
+  "description": "Braintree Payments Processing Server",
+  "private": true,
+  "license": "MIT",
+  "main": "app.js",
+  "scripts":{
+    "lint": "eslint .",
+    "start": "node app.js",
+    "test": "npm run lint && mocha tests/* --recursive"
+  },
+  "author": {
+    "name": "Sonya Stauffer",
+    "email": "sonya.stauffer@gmail.com",
+    "company": "S.L.S.A. Inc."
+  },
+  "engines": {
+    "node": "~5.1.0"
+  },
+  "devDependencies": {
+    "capture-stream": "~0.1.2",
+    "chai": "~3.5.0",
+    "depd": "~1.1.0",
+    "eslint": "~2.11.1",
+    "eslint-config-braintree": "~1.0.1",
+    "mocha": "~2.5.3",
+    "test": "~0.6.0"
+  },
+  "dependencies": {
+    "buffer": "~4.6.0",
+    "crypto": "~0.0.3",
+    "dateformat": "~1.0.12",
+    "dotenv": "~2.0.0",
+    "http": "~0.0.0",
+    "https": "~1.0.0",
+    "readable-stream": "~2.1.4",
+    "semver": "~5.1.0",
+    "stream": "~0.0.2",
+    "underscore":"~1.8.3",
+    "xml2js": "~0.4.16"
+  }
+}
